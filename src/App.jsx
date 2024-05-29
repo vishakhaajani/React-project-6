@@ -101,7 +101,7 @@ function App() {
                 <div className="task-box" key={val.id}>
                   <h4 className=' mx-3'>{val.name}</h4>
                   <h6 className='mx-3'>{val.task}</h6>
-                  <div className="deleteIcon">
+                  <div className="deleteIcon text-center">
                     <i onClick={() => handleEdit(val)}><FaEdit /></i>
                     <i onClick={() => handleDelete(val.id)}><RiDeleteBin6Fill /></i>
                   </div>

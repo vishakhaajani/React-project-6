@@ -45,10 +45,6 @@ textarea{
     position: relative;
 }
 
-.deleteIcon {
-    text-align: center;
-}
-
 .deleteIcon i {
     font-size: 25px;
     margin: 0 10px;
